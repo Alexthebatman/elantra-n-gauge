@@ -134,7 +134,7 @@
 #define LV_FONT_MONTSERRAT_26  0
 #define LV_FONT_MONTSERRAT_28  1   /* single-gauge bottom RPM */
 #define LV_FONT_MONTSERRAT_30  0
-#define LV_FONT_MONTSERRAT_32  0
+#define LV_FONT_MONTSERRAT_32  1   /* Home overview values */
 #define LV_FONT_MONTSERRAT_34  0
 #define LV_FONT_MONTSERRAT_36  0
 #define LV_FONT_MONTSERRAT_38  0
