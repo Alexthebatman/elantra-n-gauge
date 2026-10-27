@@ -1,0 +1,14 @@
+ONE-TIME GITHUB SETUP
+=====================
+
+1. Create a new GitHub repository, for example: elantra-n-gauge
+2. Extract this package on your Windows PC.
+3. Upload the CONTENTS of the ElantraN_Gauge_GitHub_R5 folder to the ROOT of the repo.
+   Important: platformio.ini should appear at the repository root, not inside a second nested folder.
+4. Commit the files to the main branch.
+5. Open the repo's Actions tab. The "Build Gauge Firmware" workflow should start automatically.
+6. Wait for the job to show a green check.
+7. Open the repo's Releases section.
+8. Open "Latest Gauge Firmware" and download ElantraN_Gauge_OTA.bin.
+
+After this, future firmware changes pushed to main automatically replace the Latest Gauge Firmware release.
